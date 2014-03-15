@@ -1,0 +1,15 @@
+# Logfile created on 2014-03-15 15:21:16 -0400 by logger.rb/41954
+I, [2014-03-15T15:21:16.655742 #1046]  INFO -- : 0:  coderay (1.1.0) from /Users/Hannah/.rvm/gems/ruby-2.0.0-p353/specifications/coderay-1.1.0.gemspec
+I, [2014-03-15T15:21:16.656220 #1046]  INFO -- : 0:  diff-lcs (1.2.5) from /Users/Hannah/.rvm/gems/ruby-2.0.0-p353/specifications/diff-lcs-1.2.5.gemspec
+I, [2014-03-15T15:21:16.656592 #1046]  INFO -- : 0:  method_source (0.8.2) from /Users/Hannah/.rvm/gems/ruby-2.0.0-p353/specifications/method_source-0.8.2.gemspec
+I, [2014-03-15T15:21:17.467276 #1046]  INFO -- : 0:  slop (3.5.0) from /Users/Hannah/.rvm/gems/ruby-2.0.0-p353/specifications/slop-3.5.0.gemspec
+I, [2014-03-15T15:21:17.467942 #1046]  INFO -- : 0:  pry (0.9.12.6) from /Users/Hannah/.rvm/gems/ruby-2.0.0-p353/specifications/pry-0.9.12.6.gemspec
+I, [2014-03-15T15:21:17.468400 #1046]  INFO -- : 0:  rack (1.5.2) from /Users/Hannah/.rvm/gems/ruby-2.0.0-p353/specifications/rack-1.5.2.gemspec
+I, [2014-03-15T15:21:17.468829 #1046]  INFO -- : 0:  rack-protection (1.5.2) from /Users/Hannah/.rvm/gems/ruby-2.0.0-p353/specifications/rack-protection-1.5.2.gemspec
+I, [2014-03-15T15:21:17.469241 #1046]  INFO -- : 0:  rspec-core (2.14.8) from /Users/Hannah/.rvm/gems/ruby-2.0.0-p353/specifications/rspec-core-2.14.8.gemspec
+I, [2014-03-15T15:21:17.469659 #1046]  INFO -- : 0:  rspec-expectations (2.14.5) from /Users/Hannah/.rvm/gems/ruby-2.0.0-p353/specifications/rspec-expectations-2.14.5.gemspec
+I, [2014-03-15T15:21:17.469938 #1046]  INFO -- : 0:  rspec-mocks (2.14.6) from /Users/Hannah/.rvm/gems/ruby-2.0.0-p353/specifications/rspec-mocks-2.14.6.gemspec
+I, [2014-03-15T15:21:17.470228 #1046]  INFO -- : 0:  rspec (2.14.1) from /Users/Hannah/.rvm/gems/ruby-2.0.0-p353/specifications/rspec-2.14.1.gemspec
+I, [2014-03-15T15:21:17.470528 #1046]  INFO -- : 0:  tilt (1.4.1) from /Users/Hannah/.rvm/gems/ruby-2.0.0-p353/specifications/tilt-1.4.1.gemspec
+I, [2014-03-15T15:21:17.470817 #1046]  INFO -- : 0:  sinatra (1.4.4) from /Users/Hannah/.rvm/gems/ruby-2.0.0-p353/specifications/sinatra-1.4.4.gemspec
+I, [2014-03-15T15:21:17.471101 #1046]  INFO -- : 0:  bundler (1.5.1) from /Users/Hannah/.rvm/gems/ruby-2.0.0-p353@global/specifications/bundler-1.5.1.gemspec
