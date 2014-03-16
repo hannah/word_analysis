@@ -6,7 +6,7 @@ class WordAnalysis
   end
 
   attr_reader :text
-
+  #all of these counts could use refactoring to include a method to make them prettier and easier to test
   def word_count
     #need to modify regex to account for apostrophes
     text = (@text.gsub!(/\W+|\d/,' ').split(" "))
@@ -16,9 +16,6 @@ class WordAnalysis
       word_count[word] +=1
     end
     word_count
-    #2. create a hash mapping each word to the count of how many times it appears
-    #   hash should be initialized at 0
-    #3. iterate over text to map each word to the count
   end
 
   def letter_count
@@ -29,5 +26,24 @@ class WordAnalysis
       letter_count[character] +=1
     end
     letter_count
+  end
+
+  def symbol_count
+    text = @text.gsub!(/\w|\d|\s/, ' ').split(" ")
+    symbol_count = Hash.new(0)
+    text.each do |symbol|
+      symbol_count[symbol] +=1
+    end
+    symbol_count
+  end
+
+  def top_words
+    top_words = (word_count.sort_by {|key, value| value}).reverse
+    return top_words[0..2]
+  end
+
+  def top_letters
+    top_letters = (letter_count.sort_by {|key, value| value}).reverse
+    return top_letters[0..2]
   end
 end
