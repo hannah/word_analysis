@@ -29,7 +29,7 @@ describe WordAnalysis do
 
 
   it "counts the number of times each word appears" do
-    #expect(text_analysis.word_count).to eq(array of match stuff method)
+    expect(text_analysis.word_count).to eq({"it"=>10, "was"=>11, "the"=>14, "best"=>1, "of"=>12, "times"=>2, "worst"=>1, "age"=>2, "wisdom"=>1, "foolishness"=>1, "epoch"=>2, "belief"=>1, "incredulity"=>1, "season"=>2, "light"=>1, "darkness"=>1, "spring"=>1, "hope"=>1, "winter"=>1, "despair"=>1, "we"=>4, "had"=>2, "everything"=>1, "before"=>2, "us"=>2, "nothing"=>1, "were"=>2, "all"=>2, "going"=>2, "direct"=>2, "to"=>1, "heaven"=>1, "other"=>1, "way"=>1, "in"=>2, "short"=>1, "period"=>2, "so"=>1, "far"=>1, "like"=>1, "present"=>1, "that"=>1, "some"=>1, "its"=>2, "noisiest"=>1, "authorities"=>1, "insisted"=>1, "on"=>1, "being"=>1, "received"=>1, "for"=>2, "good"=>1, "or"=>1, "evil"=>1, "superlative"=>1, "degree"=>1, "comparison"=>1, "only"=>1})
   end
 
   it "counts the number of times each letter appears" do

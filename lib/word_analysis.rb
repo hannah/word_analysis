@@ -8,8 +8,14 @@ class WordAnalysis
   attr_reader :text
 
   def word_count
-    #method in here must
-    #1. remove all symbol and whitespace characters
+    #need to modify regex to account for apostrophes
+    text = (@text.gsub!(/\W+|\d/,' ').split(" "))
+    word_count = Hash.new(0)
+    text.each do |word|
+      word = word.downcase
+      word_count[word] +=1
+    end
+    word_count
     #2. create a hash mapping each word to the count of how many times it appears
     #   hash should be initialized at 0
     #3. iterate over text to map each word to the count
