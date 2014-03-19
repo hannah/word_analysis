@@ -34,13 +34,8 @@ class WordAnalysis
     token_count(tokens)
   end
 
-  def top_words(count = 3)
-    top_words = (word_count.sort_by {|key, value| value}).reverse
-    top_words.slice(0, count)
-  end
-
-  def top_letters(count = 3)
-    top_letters = (letter_count.sort_by {|key, value| value}).reverse
-    top_letters.slice(0, count)
+  def most_common(type, count = 3)
+    tokens = self.send("#{type}_count")
+    tokens.sort_by { |key, value| -value }.slice(0, count)
   end
 end

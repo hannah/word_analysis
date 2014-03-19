@@ -30,21 +30,19 @@ describe WordAnalysis do
     end
   end
 
-  describe "#top_words" do
+  describe "#most_common" do
     it "displays the three most common words" do
       analysis = WordAnalysis.new('one two two three three three four four four four')
       expected_output = [['four', 4], ['three', 3], ['two', 2]]
 
-      expect(analysis.top_words).to eq expected_output
+      expect(analysis.most_common(:word)).to eq expected_output
     end
-  end
 
-  describe "#top_words" do
     it "displays the three most common letters" do
       analysis = WordAnalysis.new('abbcccddddeeeee')
       expected_output = [['e', 5], ['d', 4], ['c', 3]]
 
-      expect(analysis.top_letters).to eq expected_output
+      expect(analysis.most_common(:letter)).to eq expected_output
     end
   end
 end
