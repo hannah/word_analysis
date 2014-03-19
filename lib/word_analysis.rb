@@ -36,11 +36,11 @@ class WordAnalysis
 
   def top_words
     top_words = (word_count.sort_by {|key, value| value}).reverse
-    return top_words[0..2]
+    top_words[0..2]
   end
 
   def top_letters
     top_letters = (letter_count.sort_by {|key, value| value}).reverse
-    return top_letters[0..2]
+    top_letters[0..2]
   end
 end
