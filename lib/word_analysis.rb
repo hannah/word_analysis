@@ -34,13 +34,13 @@ class WordAnalysis
     token_count(tokens)
   end
 
-  def top_words
+  def top_words(count = 3)
     top_words = (word_count.sort_by {|key, value| value}).reverse
-    top_words[0..2]
+    top_words.slice(0, count)
   end
 
-  def top_letters
+  def top_letters(count = 3)
     top_letters = (letter_count.sort_by {|key, value| value}).reverse
-    top_letters[0..2]
+    top_letters.slice(0, count)
   end
 end
